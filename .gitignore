@@ -18,3 +18,6 @@ cmake-build-*/
 *.sln
 
 .DS_Store
+
+main
+*.dSYM/
