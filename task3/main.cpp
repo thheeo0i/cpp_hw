@@ -37,7 +37,7 @@ bool PutCmd(char board[5][10]) {
   char c;
   std::cin >> x >> y >> c;
 
-  if (Valid(x, y)) {
+  if (!Valid(x, y)) {
     return false;
   }
   
@@ -52,7 +52,7 @@ bool TextCmd(char board[5][10]) {
   
   int len = StrLen(word);
 
-  if (Valid(x, y) or Valid(x + len - 1, y)) {
+  if (!Valid(x, y) or !Valid(x + len - 1, y)) {
     return false;
   }
 

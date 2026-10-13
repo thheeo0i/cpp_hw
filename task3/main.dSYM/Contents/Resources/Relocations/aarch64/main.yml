@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/thheo/cpp/dcd/cpp_hw/task3/main'
+relocations:     []
+...
